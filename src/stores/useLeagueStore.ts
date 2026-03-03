@@ -73,5 +73,6 @@ export const useLeagueStore = defineStore('league', () => {
     uniqueSports,
     fetchAllLeagues,
     fetchBadge,
+    badgeCache,
   }
 })

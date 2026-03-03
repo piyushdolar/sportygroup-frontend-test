@@ -4,6 +4,9 @@ import { useLeagueStore } from './stores/useLeagueStore'
 import SearchBar from './components/SearchBar.vue'
 import LeagueList from './components/LeagueList.vue'
 
+// Global variable
+const appVersion = __APP_VERSION__
+
 // Initialize the store
 const leagueStore = useLeagueStore()
 
@@ -44,7 +47,7 @@ onMounted(() => {
 
     <footer class="bg-white border-t mt-auto py-6">
       <div class="text-center text-gray-400 text-sm">
-        &copy; 2026 Sporty Leagues Assignment
+        &copy; 2026 Sporty Leagues Assignment | v{{ appVersion }}
       </div>
     </footer>
   </div>

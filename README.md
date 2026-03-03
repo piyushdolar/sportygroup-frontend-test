@@ -68,8 +68,8 @@ In alignment with the assignment guidelines, AI tools were used for:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [your-github-repo-url]
-    cd [your-repo-name]
+    git clone https://github.com/piyushdolar/sportygroup-frontend-test.git
+    cd sportygroup-frontend-test
     ```
 
 2.  **Install dependencies:**
@@ -82,6 +82,9 @@ In alignment with the assignment guidelines, AI tools were used for:
 
     ```bash
     npm run dev
+
+    # Testing
+    npm run test:unit
     ```
 
 4.  **Build for Production:**
