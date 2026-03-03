@@ -2,9 +2,7 @@
 
 A modern, high-performance Single Page Application (SPA) developed as part of a technical assignment for the **Sporty Group**. This application allows users to discover sports leagues globally with an optimized, real-time filtering and caching system.
 
-## 🚀 Live Demo
-
-**[Insert Your Vercel/Netlify Link Here]**
+**[🚀 Live Demo - Click here to see live demo](https://sportygroup-frontend-test.vercel.app/)**
 
 ---
 
